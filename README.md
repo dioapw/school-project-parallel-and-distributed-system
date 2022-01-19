@@ -9,6 +9,7 @@ The system model we use is Publish-Subscribe. Publish – Subscribe is a system 
 
 ## **System and Network Architecture**
 ![image](https://user-images.githubusercontent.com/55073908/150103005-93a84596-ae3b-45b3-805f-ceb280185d72.png)
+
 Publish - Subscribe uses a Broker as a bridge to communicate so that there is no direct communication between the client and server.
 
 ## **Application Process Flow**
