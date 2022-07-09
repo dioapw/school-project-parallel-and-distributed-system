@@ -20,7 +20,7 @@ while True:
 	#publish data dengan topik "sensor1"
 	client.publish("130119_sensor2", randNumber)
 	#menampilkan data
-	print("Suhu Sensor 2 = " + str(randNumber) + " celcius")
+	print(f"Suhu Sensor 2 = {str(randNumber)} celcius")
 	#sleep delay 10 second
 	time.sleep(10)
 client.stop_loop()
